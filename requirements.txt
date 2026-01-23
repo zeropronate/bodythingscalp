@@ -1,0 +1,13 @@
+fastapi>=0.128.0
+uvicorn[standard]>=0.40.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+requests>=2.31.0
+reportlab>=4.4.9
+pdfplumber>=0.10.0
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
