@@ -2,7 +2,7 @@
 """Test the improved LLM prompt with explicit instructions for value comparison"""
 
 import sys
-sys.path.insert(0, '/home/nkro/PycharmProjects/FastAPIProject')
+sys.path.insert(0, '/')
 
 from app.services.llm_client import build_prompt, _clean_llm_output
 import subprocess

@@ -62,7 +62,7 @@ rm -rf .venv __pycache__ .pyc
 find . -type d -name __pycache__ -exec rm -rf {} +
 
 # Create zip (Linux/Mac)
-zip -r FastAPIProject.zip . \
+zip -r zeropreventhealth.zip . \
   -x ".venv/*" "__pycache__/*" "*.pyc" ".env" ".git/*"
 
 # Or use GUI to select files and compress
@@ -95,10 +95,10 @@ git push -u origin main
 ### Option 3: Copy Project Folder
 ```bash
 # Simple copy (Linux/Mac)
-cp -r FastAPIProject /path/to/export/location
+cp -r zeropreventhealth /path/to/export/location
 
 # On target PC, just install dependencies:
-cd FastAPIProject
+cd zeropreventhealth
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt

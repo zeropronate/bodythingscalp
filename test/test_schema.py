@@ -2,7 +2,7 @@
 """Test the updated schema that handles None values"""
 
 import sys
-sys.path.insert(0, '/home/nkro/PycharmProjects/FastAPIProject')
+sys.path.insert(0, '/')
 
 from app.schemas.analysis import Parameter, AnalysisResult
 

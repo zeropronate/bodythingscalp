@@ -73,7 +73,7 @@ python test_json_parser.py
 
 **3. Full Pipeline Test** (`test_pipeline.py`)
 ```bash
-PYTHONPATH=/home/nkro/PycharmProjects/FastAPIProject python test_pipeline.py
+PYTHONPATH=/home/nkro/PycharmProjects/zeropreventhealth python test_pipeline.py
 # ✅ 4/4 scenarios passed
 # - All JSON formats parsed correctly
 # - Schema validation successful

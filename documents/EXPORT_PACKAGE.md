@@ -44,13 +44,13 @@ FastAPIProject/
 ### Method 1: Simple Copy (Recommended)
 ```bash
 # Linux/Mac
-cp -r FastAPIProject /path/to/export/
+cp -r zeropreventhealth /path/to/export/
 ```
 
 ### Method 2: ZIP File
 ```bash
 # Create clean ZIP without virtual environment
-zip -r FastAPIProject.zip . \
+zip -r zeropreventhealth.zip . \
   -x ".venv/*" "__pycache__/*" "*.pyc" ".env"
 ```
 
@@ -79,7 +79,7 @@ git push -u origin main
 #### Linux/Mac
 ```bash
 # 1. Navigate to project
-cd FastAPIProject
+cd zeropreventhealth
 
 # 2. Run auto-setup (or follow manual steps in SETUP_GUIDE.md)
 bash setup.sh

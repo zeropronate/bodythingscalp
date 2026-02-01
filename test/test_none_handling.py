@@ -2,7 +2,7 @@
 """Test full pipeline with LLM output that has None values"""
 
 import sys
-sys.path.insert(0, '/home/nkro/PycharmProjects/FastAPIProject')
+sys.path.insert(0, '/')
 
 from app.utils.json_safe import parse_json_safe
 from app.schemas.analysis import AnalysisResult

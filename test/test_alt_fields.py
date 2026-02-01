@@ -2,7 +2,7 @@
 """Test schema handles alternative field names from LLM"""
 
 import sys
-sys.path.insert(0, '/home/nkro/PycharmProjects/FastAPIProject')
+sys.path.insert(0, '/')
 
 from app.schemas.analysis import AnalysisResult
 

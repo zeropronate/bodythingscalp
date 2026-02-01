@@ -14,8 +14,8 @@ This project analyzes blood test reports using a local Ollama LLM (llama3). All 
 ### 1. Clone/Copy Project
 ```bash
 # Copy the project folder to your target PC
-cp -r FastAPIProject /path/to/destination
-cd FastAPIProject
+cp -r zeropreventhealth /path/to/destination
+cd zeropreventhealth
 ```
 
 ### 2. Install Dependencies
